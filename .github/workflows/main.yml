@@ -42,7 +42,7 @@ jobs:
           CYPRESS_RECORD_KEY: ${{ secrets.ed61d36e-f127-4dd9-95a6-0a24954b0106 }}
           # Recommended: pass the GitHub token lets this action correctly
           # determine the unique run id necessary to re-run the checks
-          GITHUB_TOKEN: ${{ secrets.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 }} 
+          GITHUB_TOKEN: ${{ secrets.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
 
 on: [push]
 
