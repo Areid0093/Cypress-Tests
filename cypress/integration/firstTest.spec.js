@@ -137,7 +137,7 @@ describe('Our first tests', () => {
             .should('contain', 'checked')
     })
 
-    it.only('assert property', () => {
+    it('assert property', () => {
 
         function selectDayFromCurrent(day){
             let date = new Date()
@@ -289,4 +289,13 @@ describe('Our first tests', () => {
 
     })
     
+    it.only('tooltips', () => {
+        cy.visit('/')
+        cy.contains('Modal & Overlays').click()
+        cy.contains('Tooltip').click()
+
+        cy.contains('nb-card', 'Colored Tooltips')
+            .contains('Default').click()
+    });
+
 });
