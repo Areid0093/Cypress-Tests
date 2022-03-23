@@ -1,1 +1,1 @@
-The original repo is here: https://github.com/akveo/ngx-admin
+The original repo for app is here: https://github.com/akveo/ngx-admin
