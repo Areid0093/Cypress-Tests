@@ -1,7 +1,5 @@
 /// <reference types="cypress" />
 
-// const { eq } = require("cypress/types/lodash");
-
 describe('Our first tests', () => {
 
     it('first test', () => {
